@@ -17,5 +17,5 @@ jobs:
           project_name: Margarita_ManyReports_NoKics
           cx_tenant: cx_seg
           base_uri: https://eu.ast.checkmarx.net
-          cx_apikey: ${{ secrets.Cx_APIKey }}
+          cx_apikey: ${{ secrets.CX_APIKEY }}
           additional_params: --debug --scan-types SAST,SCA
