@@ -25,5 +25,6 @@ jobs:
           base_uri: https://eu.ast.checkmarx.net
           cx_client_id: ${{ secrets.CX_CLIENT_ID }}
           cx_client_secret: ${{ secrets.SECRET }}
-          additional_params: --debug --scan-types SAST,SCA
+          additional_params: --debug 
+          # --scan-types SAST,SCA
     #      additional_params: --scan-types ${{ env.scanTypes }} --file-filter "!src/, !.git/, !*.java, !*.iml, !*.json, !*.jar" --debug
